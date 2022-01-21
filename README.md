@@ -106,29 +106,18 @@ packages that change your initial variables. Pls backup your environment variabl
 
 Haimeur Zakaria-
 
--Gitlab:
-   ```
-   <https://gitlab.science.gc.ca/zak000>
-   ```  
--Github
-   ```
-   <https://github.com/haimeurz> 
-   ```
+*Personal Email:*
+    <haimeurz@gmail.com>
 
--Personal Email:
-```
-<haimeurz@gmail.com>
-```
+*Work Email with ECCC:*
+    <Zakaria.Haimeur@ec.gc.ca>
 
--Work Email with ECCC:
-```
-<Zakaria.Haimeur@ec.gc.ca>
-```
+* [Gitlab](https://gitlab.science.gc.ca/zak000)
+* [Github](https://github.com/haimeurz)
+* [LinkedIn](linkedin.com/in/haimeur-zakaria/)
 
--LinkedIn:
-```
-<linkedin.com/in/haimeur-zakaria/>
-```
+
+
 
 Project Link: [https://gitlab.science.gc.ca/zak000/script_bkp_env](https://gitlab.science.gc.ca/zak000)
 
