@@ -4,11 +4,11 @@
 bkp () {
     echo 'Commencement du script qui cree le backup de votre environnement....'
 # Je cree une directory cachée ou il y aura mon backup si elle nexiste pas 
-    mkdir -p ~/.env_bkp
-    rm -f ~/.env_bkp/*
+    /bin/mkdir -p ~/.env_bkp
+    /bin/rm -f ~/.env_bkp/*
 # je sauvegarde loutput de la commande dans txt file si le file existe deja il va le ovewrite
 # jenleve les fonctions dans mon fichier txt du output de env
-    env | perl -0777 -pe s'/[{].*[}]//'sg | perl -pe s'/.*?=\(\).*\n//'g |sort > ~/.env_bkp/${HOST}_${USER}_init.txt
+    /usr/bin/env | /usr/bin/perl -0777 -pe s'/[{].*[}]//'sg | /usr/bin/perl -pe s'/.*?=\(\).*\n//'g |/usr/bin/sort > ~/.env_bkp/${HOST}_${USER}_init.txt
     echo "Votre backup initial est fini dans ~/.env_bkp/${HOST}_${USER}_init.txt!" 
 
 }
@@ -19,7 +19,7 @@ unsetVar () {
     # . unset.sh
 
     #Je cree un fichier txt de la commande env qui a juste les variables et aucune fonction 
-    env | perl -0777 -pe s'/[{].*[}]//'sg | perl -pe s'/.*?=\(\).*\n//'g |sort > ~/.env_bkp/${HOST}_${USER}_current.txt
+    /usr/bin/env | /usr/bin/perl -0777 -pe s'/[{].*[}]//'sg | /usr/bin/perl -pe s'/.*?=\(\).*\n//'g |/usr/bin/sort > ~/.env_bkp/${HOST}_${USER}_current.txt
 
     OLD_IFS=$IFS
     IFS=$'\n'
@@ -68,7 +68,7 @@ do
         "--help")
             echo "Usage: . ~/run.sh [OPTION]
 Keep a copy of your initial environment variables and you are also able to reset your variables after you use some
-packages that change your initial variables. Pls backup your environment variables first!!! 
+packages that change your initial variables. Pls backup your environment variables first!!! DONT FORGET TO RUN THE SCRIPT IN SOURCE!
 
   -backup, backup your environment variables
   -reset,  'unset' your current environment variables and set it to the one with you have in your backup
