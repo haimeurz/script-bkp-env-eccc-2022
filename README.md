@@ -27,7 +27,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -91,19 +90,10 @@ packages that change your initial variables. Pls backup your environment variabl
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-<!-- LICENSE -->
-## License
-
-© Haimeur Zakaria , École de technologie supérieure <haimeurz@gmail.com> 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
+Haimeur Zakaria , École de technologie supérieure <haimeurz@gmail.com> 
 Haimeur Zakaria-
 
 *Personal Email:*
